@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  align-items: center;
+}
+input,
+button {
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.title,
+.ph {
+  align-items: center;
+  justify-content: center;
+}
