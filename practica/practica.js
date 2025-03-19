@@ -31,7 +31,14 @@ const myObjcts = [
   { name: "jehan", id: 3222332, masculino: "true" },
   { city: "medellin", tel: 5734556444, ocupacion: "developer" },
   { estudios: "tecnico desarrollo de software", institucion: "politecnico" },
-  { edad: 23, estadoCivil: "soltero", hijos: "false" },
+  {
+    edad: 23,
+    estadoCivil: "soltero",
+    hijos: "false",
+    fun: function () {
+      console.log("funciona la funcion del objecto");
+    },
+  },
 ];
 
 const carrito = [];
